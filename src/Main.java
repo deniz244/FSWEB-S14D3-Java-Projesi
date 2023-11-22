@@ -13,6 +13,7 @@ public class Main {
         System.out.println(car.accelerate());
 
         System.out.println(car.brake());
+        System.out.println("*********************************");
 
         Car mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
 

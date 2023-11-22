@@ -5,12 +5,15 @@ public class Ford extends Car{
         super(cylinders, name);
     }
     public String startEngine(){
-        return getClass().getSimpleName() + "'s engine is starting";
+        super.startEngine();
+        return getName() + "'s engine is starting";
     }
     public String accelerate(){
-        return getClass().getSimpleName() +"'s engine is accelerating";
+        super.accelerate();
+        return getName() +"'s engine is accelerating";
     }
     public String brake(){
-        return getClass().getSimpleName() +"is braking";
+        super.brake();
+        return getName() +" is braking";
     }
 }
